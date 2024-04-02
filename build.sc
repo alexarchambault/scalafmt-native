@@ -8,7 +8,7 @@ import io.github.alexarchambault.millnativeimage.upload.Upload
 import mill._
 import mill.scalalib._
 
-def scalafmtVersion = "3.8.0"
+def scalafmtVersion = "3.8.1"
 
 trait ScalafmtNativeImage extends ScalaModule with NativeImage {
   def scalaVersion = "2.13.13"
